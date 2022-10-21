@@ -1,0 +1,182 @@
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1280px;
+    margin: auto 10%;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    display: flex;
+    list-style: none;
+}
+.nav-item li{
+    padding: 0 1rem;
+}
+.img-logo{
+    letter-spacing: 1rem;
+}
+.col-2{
+    width: calc(100%/2 - 0px);
+}
+.hero-section{
+    background-color: #DCEAF5;
+    padding: 5vh 0 0;
+}
+.hero-img{
+    width: 100%;
+}
+.col-3{
+    width: calc(100%/3 - 0px);
+}
+.gap{
+    gap: 30px;
+}
+.service-section{
+    padding: 5vh 0;
+}
+.service-img{
+    border-radius: 30px;
+}
+.main-title{
+    font-size: 64px;
+}
+.build-section{
+    background-color: #DCEAF5;
+    padding: 5vh 0;
+}
+.build-title{
+    font-size: 36px;
+}
+.service-img{
+    width: 100%;
+}
+.content{
+    padding: 2rem;
+    background-color: white;
+    border-radius: 30px;
+}
+.build-img{
+    width: 10%;
+}
+.energy-detail{
+    display: flex;
+}
+.energy-img{
+    width: 100%;
+    border-radius: 30px;
+    mix-blend-mode: multiply;
+    
+}
+.energy-title{
+    font-size: 36px;
+}
+.energy-number{
+    font: 2rem bolder;
+    color: #F58A07;
+}
+.energy-section{
+    padding: 5vh 0;
+}
+
+.help-nav{
+    display: flex;
+}
+.help-nav li{
+    list-style: none;
+    padding: 2rem;
+}
+.help-section{
+    background-color: #DCEAF5;
+    border-radius: 30px;
+    padding: 2rem;
+    position: relative;
+    
+}
+.help-img{
+    width: 100%;
+}
+.help-section .ribbon{
+   position: absolute;
+   top: -10px;
+   right: -10px;
+   width: 10vw;
+}
+.startup-section{
+    padding: 5vh 0;
+    display: flex;
+}
+.startup-img{
+    width: 10%;
+}
+.startup-detail{
+    background-color: #F58A07;
+    font: 2rem bolder;
+    color: white;
+    padding: 5rem;
+}
+.col-1{
+    width: calc(100%/2);
+}
+.dream-section{
+    padding: 5vh 0;
+    align-items: center;
+}
+.ceo{
+    display: flex;
+    align-items: center;
+}
+.ceo-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.video{
+    position: relative;
+}
+.video-img{
+    width: 100%;
+}
+.video .banner{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+.video-banner{
+    background-color: white;
+    border-radius: 30px;
+    padding: 1.5rem;
+}
+.play{
+    color: white;
+}
+.news-section{
+    background-color: #DCEAF5;
+    padding: 5vh 0;
+}
+.news-col{
+    background-color: white;
+    border-radius: 30px;
+}
+.news-content{
+    padding: 2rem;
+}
+footer{
+    background-color: #063255;
+    color: white;
+    padding: 5vh 0;
+}
+.nav-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-footer li{
+    list-style: none;
+}
+footer a{
+    color: white;
+}
