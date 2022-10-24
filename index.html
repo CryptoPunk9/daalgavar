@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link href="'https://fonts.googleapis.com/css?family=Poppins'" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
@@ -18,12 +18,12 @@
                 <div class="logo"><h2>{finsweet</h2></div>
                 <div>
                     <ul class="nav-item"> 
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                        <li><a class="call" href="#">Call to Action</a></li>
+                        <li><a class="top" href="#">Home</a></li>
+                        <li><a class="top" href="#">Careers</a></li>
+                        <li><a class="top" href="#">Services</a></li>
+                        <li><a class="top" href="#">Blog</a></li>
+                        <li><a class="top" href="#">Contact Us</a></li>
+                        <li><a class="uniq" href="#">Call to Action</a></li>
                     </ul> 
                 </div>
             </div>
@@ -32,10 +32,10 @@
 <section class="hero-section">
     <div class="container row gap">
     <div class="col-2">
-        <p class="main-title">Prosper with our bespoke solutions</p>
+        <h1 class="main-title">Prosper with our bespoke solutions</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, magnam!</p>
-        <a href="#">See Our Services</a>
-        <a href="#">See All Services</a>
+        <a class="see" href="#">See Our Services</a>
+        <a class="see" href="#">See All Services</a>
         <p>Worked with 100+ companies</p>
         <div class="img-logo">
         <img src="/w2d4workfile/images/haeder-logo-1.svg" alt="">
@@ -60,19 +60,19 @@
         <img class="service-img" src="/w2d4workfile/images/post1.png" alt="">
         <h2>Business strategy</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus voluptate, molestiae officia id aliquam distinctio?</p>
-        <a href="#">Learn More</a>
+        <div class="arrow"><a class="arrow" href="#">Learn More</a></div>
     </div>
     <div class="col-3">
         <img class="service-img" src="/w2d4workfile/images/post-2.png" alt="">
         <h2>Digitalization</h2>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis perferendis dignissimos, distinctio culpa numquam praesentium.</p>
-        <a href="#">Learn More</a>
+        <div class="arrow"><a  class="arrow" href="#">Learn More</a></div>
     </div>
     <div class="col-3">
         <img class="service-img" src="/w2d4workfile/images/post-3.png" alt="">
         <h2>Risk Assessment</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus fuga, voluptatum explicabo dolores molestiae obcaecati.</p>
-        <a href="#">Learn More</a>
+        <div class="arrow"><a class="arrow" href="#">Learn More</a></div>
     </div>
     </div>
 </section>
@@ -127,40 +127,41 @@
     <div>
         <nav>
             <ul class="help-nav">
-                <li><a href="#">Business Strategy</a></li>
-                <li><a href="#">Digitalization</a></li>
-                <li><a href="#">Risk Assessment</a></li>
+                <li><a class="grey" href="#">Business Strategy</a></li>
+                <li><a class="grey" href="#">Digitalization</a></li>
+                <li><a class="grey" href="#">Risk Assessment</a></li>
             </ul>
         </nav>
     </div>
     <div class="row gap">
         <div class="col-2">
-        <p class="help-title">Helping clients with research and strategy for their business</p>
+        <h2 class="help-title">Helping clients with research and strategy for their business</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iusto nam cupiditate quam quas. Aspernatur praesentium unde doloremque! Repellendus incidunt minus numquam odit impedit inventore!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non distinctio aspernatur excepturi dolore repellendus.</p>
-        <a href="#">See All services</a>
+        <div class="arrow"><a class="arrow" href="#">See All services</a></div>
         </div>
         <div class="col-2 blend">
         <div><img class="help-img" src="/w2d4workfile/images/team.png" alt=""></div>
         </div>
     </div>
 </section>
-<section class="startup-section">
-    <div><img class="startup-img col-1" src="/w2d4workfile/images/experience-image.png" alt=""></div>
-    <div class="startup-detail col-1">
-        <p class="startup-title">Energy of a start-up combined with 30 years of experience</p>
-        <a href="#">See Job Vacancies</a>
+<section class="startup-section row gap">
+    <div class="startup col-2"></div>
+    <div class="col-2 startup-detail">
+        <h2>Energy of a startup combined with 30 years of experience.</h2>
+        <a class="job" href="#">See Job Vacancies</a>
     </div>
+    
 </section>
 <section class="dream-section container row gap">
     <div class="col-2">
-        <p>Finsweet Was A Dream To Work With</p>
+        <h2>Finsweet Was A Dream To Work With</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio atque consequatur, nisi ipsa assumenda fuga neque cumque. Quasi accusantium magnam odit quidem numquam mollitia fugiat?</p>
         <div class="ceo">
             <div class="ceo"><img class="ceo-img" src="/w2d4workfile/images/video-image.png" alt=""></div>
             <div>
-                <p>Chikelu Neo</p>
-                <p>CEO at MazeAI</p>
+                <h2>Chikelu Neo</h2>
+                <p class="tailbar">CEO at MazeAI</p>
             </div>
         </div>
     </div>
@@ -176,30 +177,30 @@
 </section>
 <section class="news-section">
     <div class="container">
-    <p class="news-title">Latest Blog & News</p>
+    <h2 class="news-title">Latest Blog & News</h2>
     <div class="row gap">
         <div class="col-3 news-col">
-            <img class="service-img" src="/w2d4workfile/images/post1.png" alt="">
+            <img class="news-img" src="/w2d4workfile/images/post1.png" alt="">
             <div class="news-content">
             <h2>Why you have to digitalize in 2021</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid minus ipsum eligendi modi accusantium temporibus.</p>
-            <a href="#">Learn More</a>
+            <div class="arrow"><a class="arrow" href="#">Learn More</a></div>
             </div>
         </div>
         <div class="col-3 news-col">
-            <img class="service-img" src="/w2d4workfile/images/post-2.png" alt="">
+            <img class="news-img" src="/w2d4workfile/images/post-2.png" alt="">
             <div class="news-content">
             <h2>Our internal process and longerm vision</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates repudiandae delectus voluptatum, est et unde?</p>
-            <a href="#">Learn More</a>
+            <div class="arrow"><a class="arrow" href="#">Learn More</a></div>
             </div>
         </div>
         <div class="col-3 news-col">
-            <img class="service-img" src="/w2d4workfile/images/post-3.png" alt="">
+            <img class="news-img" src="/w2d4workfile/images/post-3.png" alt="">
             <div class="news-content">
             <h2>Helping the next generation of leaders</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aperiam temporibus consectetur et ducimus rerum?</p>
-            <a href="#">Learn More</a>
+            <div class="arrow"><a class="arrow" href="#">Learn More</a></div>
             </div>
         </div>
     </div>
@@ -230,11 +231,12 @@
         <div>
             <h2>Join Newsletter</h2>
             <p class="email">Type email here</p>
-            <a href="#">Subscribe</a>
+            <br>
+            <a class="sub" href="#">Subscribe</a>
         </div>
     </section>
     <section class="main-footer container row">
-        <div><p>All rights reserved - Finsweet</p></div>
+        <div><p><i class="fa-regular fa-copyright"></i>All rights reserved - Finsweet</p></div>
         <div class="row gap">
             <div><a href="#">Privacy Policy</a></div>
             <div><a href="#">Terms & Conditions</a></div>
